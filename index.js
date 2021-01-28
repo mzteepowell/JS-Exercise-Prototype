@@ -115,10 +115,10 @@ Car.prototype.drive = function(distance) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. The "this" keyword
-    2. 
-    3. 
-    4. 
+    1. The "this" keyword binds to Window by default if no other rules apply unless you are in 'strict mode', otherwise it will return undefine. An example of window binding is using undeclared variables. 
+    2. Implicit Binding is when functions are declared within objects. Function invocations outside of the object are made by reference. Binds left of the dot when function is invoked.
+    3. Explicit Binding is when functions are declared outside of objects and invoked with .call, .apply, or .bind with passed arguments.
+    4. New Binding points to objects created from constructors
   */
   
   
